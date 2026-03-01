@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Wallpaper App</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- App Container -->
+  <div class="app-container">
+
+    <!-- Header -->
+    <h1>AI Wallpaper Generator</h1>
+    <p class="subtitle">Create cute anime & cartoon wallpapers ✨</p>
+
+    <!-- Prompt Input -->
+    <div class="prompt-box">
+      <input
+        type="text"
+        id="prompt"
+        placeholder="Enter prompt (e.g. cute anime night city)"
+      />
+      <button id="generateBtn">Generate Wallpaper</button>
+    </div>
+
+    <!-- Wallpaper Preview -->
+    <div class="preview">
+      <img
+        id="wallpaper"
+        src=""
+        alt="Wallpaper Preview"
+      />
+    </div>
+
+    <!-- Mini Screens (Home / Lock preview – optional UI) -->
+    <div class="mini-screens">
+      <div class="mini-screen">Home</div>
+      <div class="mini-screen">Lock</div>
+    </div>
+
+  </div>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+</body>
+</html>
